@@ -7,7 +7,7 @@ import java.util.List;
 public class FolderList 
 {
 	private File[] folderList; 
-	private File directory = new File("M:\\Collection");
+	private File directory;
 	
 	public FolderList(String folderPath)
 	{
