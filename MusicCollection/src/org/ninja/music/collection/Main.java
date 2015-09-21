@@ -13,11 +13,18 @@ import com.google.gson.*;
 public class Main {
 
 	public static void main(String[] args) {
+<<<<<<< HEAD
 		//CollectionReader collection = new CollectionReader("M:\\Collection");
 		//CollectionReader collection = new CollectionReader("M:\\_Road Trip Music");		
 		CollectionReader collection = new CollectionReader("D:\\Privat\\Music");
 		//CollectionReader collection = new CollectionReader("F:\\Music\\Nadja's Guilty Pleasure");
 		//CollectionReader collection = new CollectionReader("F:\\Music\\Collection");
+=======
+		//FolderList fList = new FolderList("M:\\Collection");
+		//FolderList fList = new FolderList("M:\\_Road Trip Music");
+		//FolderList fList = new FolderList("D:\\Privat\\Music");
+		FolderList fList = new FolderList("/local/home/coates/Documents");
+>>>>>>> branch 'master' of https://github.com/nadja0410/music-collection.git
 		
 			
 		Gson gson = new Gson();
